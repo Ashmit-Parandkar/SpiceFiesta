@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spice Fiesta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="top_section">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html" style="font-family: cursive;
+			font-size: 1.8rem;
+			margin-left: 1.1rem;
+			text-shadow: 1px 1px 4px #ff4233;">SpiceFiesta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-text">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="intro">
+        <div class="container" style="display: flex;align-items:center;justify-content:center">
+            <div id="carousel-container">
+                <div id="carouselExampleIndicators" class="carousel slide" style="display: flex;align-items: center;
+				justify-items: center;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" style="height:68vh">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/premium-photo/buffet-food-catering-food-party-made-by-aiartificial-intelligence_41969-12071.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn0.weddingwire.in/vendor/9105/3_2/960/jpg/caterers-royal-spoon-caterers-catering-setup-1_15_399105-164796636429883.jpeg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://remelys.com/wp-content/uploads/2012/06/catering_service.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    </header>
+
+    <span id="backTop" onclick="backToTop()">
+        -<a style="display: flex;"></a>^
+    </span>
+
+
+    <div class="index-page" id="page-content"><!-- ////////////Content Box 01 -->
+        <div id="services"></div>
+
+        <section class="box-content box-1" style="padding-left:20px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 " style="z-index: 5;margin-bottom:-100px;">
+                        <div class="service" style="position: relative;left: -2rem;">
+                            <h3 style="padding:7px 0;">Welcome to SpiceFiesta Caterers</h3>
+
+                            <p>Taste and Quality is Assured</p>
+                            <!--<a class="btn btn-2 btn-sm" href="#">Read More</a>-->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 " style="z-index: 5;margin-bottom:-100px;">
+                        <div class="service">
+                            <h3 style="padding:29px 0;">Best Pure Veg Catering service in India</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 " style="z-index: 5;margin-bottom:-100px;">
+                        <div class="service" style="position: relative;right: -2rem;">
+                            <p>Address : House No: 1458, NGOs Colony, Vanasthalipuram, Hyderabad.</p>
+                            <p>Phone : +91 8494501234</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="box-content box-2 box-style" id="aboutus">
+            <div class="container">
+                <div class="row heading">
+                    <div class="col-lg-12">
+                        <h2>About Us</h2>
+
+                        <div class="intro" style="float:left;font-size: 1.2rem;">
+                            Welcome to SpiceFiesta Catering, a culinary haven and the preeminent catering service in the
+                            vibrant city of Hyderabad. With a legacy that spans three years, SpiceFiesta has become
+                            synonymous with an unwavering commitment to quality, a symphony of flavors, and an
+                            unparalleled dedication to affordable excellence. Our journey began with a simple yet
+                            profound vision: to redefine catering by delivering not just meals, but unforgettable
+                            experiences that linger on the taste buds and in the memories of our cherished clientele.
+                            <br><br>
+                            At the heart of SpiceFiesta's success lies a dedication to sourcing only the finest
+                            ingredients. We take pride in our meticulous approach, preparing every dish from scratch to
+                            ensure a level of quality that sets us apart. Our growth story is not merely a tale of
+                            business milestones; it's a narrative woven with the warmth of referrals from satisfied
+                            customers, a testament to the trust and loyalty we've earned.
+                            <br><br>
+                            The SpiceFiesta Difference is manifest in every aspect of our culinary offerings. Quality is
+                            our foremost principle, and it resonates through the careful selection of ingredients and
+                            the artful preparation of each dish. We believe in putting freshness and flavor at the
+                            forefront, creating a unique alchemy of taste that defines our culinary identity.
+                            Specializing in vegetarian menus, we embrace diversity, offering a wide array of dishes that
+                            cater to varied tastes and preferences.
+                            <br><br>
+                            At the helm of SpiceFiesta is Mr. Ashmit, a maestro in the culinary realm. His astute
+                            management has steered SpiceFiesta through three years of culinary excellence, where every
+                            meal is not just a feast for the senses but a celebration of taste, tradition, and the
+                            unique SpiceFiesta experience. Our expert team, seasoned in the culinary arts, consistently
+                            exceeds expectations in service, quality, and reliability.
+                            <br>
+                            As the leading vegetarian catering service in Hyderabad, SpiceFiesta takes pride in going
+                            above and beyond to ensure that our food is not only delicious but also delivered punctually
+                            to your doorstep. Join us on this flavorful journey, where every dish is a testament to our
+                            commitment to excellence. SpiceFiesta Catering—where every meal is a celebration of taste,
+                            tradition, and the art of culinary mastery.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </section>
+
+
+
+        <section class="box-content box-2 box-style" id="aboutus-images">
+            <div class="container">
+                <div class="row heading">
+                    <div class="col-lg-12">
+                        <h2>Savor the Experience: A Visual Delight</h2>
+                        <div class="container">
+                            <div class="row">
+                                <div class="card" style="width: 25rem;margin-left:8rem">
+                                    <img class="card-img-top"
+                                        src="https://media.istockphoto.com/id/650655146/photo/catering-food-wedding-event-table.jpg?s=612x612&w=0&k=20&c=ATGYgW8bM_559jJ5aUNO4HlJqpkOWUmNNMMflx5kajo="
+                                        alt="Card image cap">
+
+                                </div>
+                                <div class="card" style="width: 25rem;margin-left:4rem">
+                                    <img class="card-img-top"
+                                        src="https://theclubmumbai.com/wp-content/uploads/2019/09/j009-2.jpg"
+                                        alt="Card image cap">
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="card" style="width: 25rem;margin-left:8rem">
+                                    <img class="card-img-top"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFJslgsaENiz422ITtVYJIwyC4qog0sqc_i0yaRkb8A7rClJT6ok_z1Y9DgAsP_wkt4rY&usqp=CAU"
+                                        alt="Card image cap">
+
+                                </div>
+                                <div class="card" style="width: 25rem;margin-left:4rem">
+                                    <img class="card-img-top"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCgDwTh91WO4pTbM7N1Rdsre4ZtRQqqQSpriBZm9FVEMfUDMUHvMgV9SWrSvVjB51w79g&usqp=CAU"
+                                        alt="Card image cap">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="wrap-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-footer footer-1">
+                            <div class="footer-heading">
+                                <h4>About Us</h4>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    Proudly boasting three years of catering excellence in Hyderabad, SpiceFiesta has
+                                    earned unwavering customer loyalty. Flourishing under the adept management of Mr.
+                                    Ashmit since 2020, our commitment to providing value-added and affordable catering
+                                    services remains unparalleled. Situated in Hyderabad, SpiceFiesta continues to be
+                                    the epitome of culinary satisfaction and excellence.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-footer footer-3">
+                            <div class="footer-heading">
+                                <h4>We Serve for any kind of event</h4>
+                            </div>
+
+                            <div class="content">
+                                <ul>
+                                    <li><a>Wedding</a></li>
+                                    <li><a>Pre Wedding</a></li>
+                                    <li><a>Poojas</a></li>
+                                    <li><a>In House Events</a></li>
+                                    <li><a>Corporate Events</a></li>
+                                    <li><a>Birthday Parties</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="copy-right">
+            <div class="wrap-footer">
+                <div class="col-md-6 col-md-offset-3" style="text-align: center;width:98vw;padding:4px 0;">
+                    <p>Copyright &#169; 2023 - ASHMIT</p>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+<script>
+    var mybutton = document.getElementById("backTop");
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function backToTop() {
+        console.log("Hello")
+        var targetDiv = document.getElementById('top_section');
+        targetDiv.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</html>

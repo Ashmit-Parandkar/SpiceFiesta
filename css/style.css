@@ -1,0 +1,456 @@
+/* Google font */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+	
+@import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+	
+
+
+/* ------------------------------------Html-Body------------------------------- */
+
+body {
+	font-family: 'Ek Mukta', sans-serif;
+	color: #666;
+	background-color: #fff;
+	font-size: 16px;
+	line-height: 1.6em;
+	font-weight: 400;
+	
+}
+html, body {
+	width:100%;
+	 padding:0;
+	 margin:0;
+	
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+img{
+	max-width:100%;
+		height: auto;
+	width: auto\9;
+	
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: #111;
+	
+}
+
+p {
+	margin: 0 0 20px;
+	color:rgb(85,61,21);
+	
+}
+
+a:hover,
+a:focus {
+	color: #DA251D;
+	text-decoration: none;
+	
+}
+
+.clear{
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/* ---------------------------------Header+Nav--------------------------------- */
+
+table {
+	
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+	
+}
+
+.table-wrapper-scroll-y {
+	
+display: block;
+	
+}
+
+th{
+	
+  text-align: left;
+  padding: 14px;
+	
+}
+td {
+	
+  text-align: left;
+  padding: 14px;
+	
+}
+
+tr:nth-child(even) {
+	
+  background-color: #ff4f38;
+  color: white;
+	
+} 
+
+@media (min-width: 975px) {
+	
+	.my-custom-scrollbar {
+		height: 600px;
+		overflow-y: scroll;
+		text-align:center
+	}
+}
+
+header {
+	width: 100%;
+	background: #333;
+	border-top: 3px;
+	border-bottom: 4px;
+	border-left: 3px dotted;
+	border-right: 3px;
+	border-style:dashed;
+	border-color: rgb(255, 52, 37);
+} 
+
+#top_section{
+	padding: 15px 0px;
+	font-size: 1.1rem;	
+}
+
+#nav-text{
+	
+	margin-left: 46vw;
+	
+}
+
+.nav-link{
+	
+	margin: 0 12px;
+	
+}
+
+
+/* Carousel Header Styles */
+
+#carousel-container{
+	
+	width:88%;
+	
+}
+@media screen and (max-width: 1000px){
+	
+	#carousel-container{
+	
+		width: 100%;
+	
+	}
+}
+
+.header-text {
+	position: absolute;
+	top: 33%;
+	left: 1.8%;
+	right: auto;
+	width: 96.66666666666666%;
+	color: #fff;
+	
+}
+.header-text h2 {
+	font-size: 40px;
+	padding: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #DA251D;
+	display:inline-block;
+	color:#fff;
+	
+}
+.header-text h3 {
+	color: #fff;
+	
+}
+
+
+/* -------------------------------------Content-------------------------------- */
+
+
+.card {
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	text-align: center;
+	transition: transform 0.2s;
+}
+.card:hover {
+	transform: scale(1.05);
+}
+.redirect-card{
+	height: 16rem;
+	width: 30rem;
+	border-radius: 10px;
+	border-top: 4px solid #DA251D;
+}
+.btn{
+	background-color:#DB4437;
+	border-color: #DA251D;
+}
+
+
+
+.archives-page {
+	padding: 70px 0;
+	background: #EAE4D8;
+	
+}
+.archives-page article img{
+	display: inline-block;
+	max-width: 250px;
+	float: left;
+	padding-right: 10px;
+	
+}
+
+
+/* ---HomePage--- */
+
+.box-content {
+	padding: 25px 0;
+	
+}
+.box-content .heading{
+	margin-bottom: 80px;
+	text-align:center;
+	
+}
+.box-content .heading h2 {
+	height: 75px;
+	background: #DB4437;
+	padding: 13px 0 0 0;
+	position: relative;
+	width: 100%;
+	font-size: 45px;
+	text-decoration: none;
+	color: #fff;
+		}
+.box-content .heading .intro{
+	 margin:30px 0 10px 0;
+	
+}
+
+.box-content.box-style{
+	background: #F7F3E2;
+	 padding:70px 0;
+	box-shadow: 0px 0 10px 10px #999;
+	
+}
+
+.box-content.box-1 .service{
+	margin: -80px 0 150px 0;
+	text-align: center;
+	background:#EAE4D8;
+	padding: 20px;
+	border-top:5px solid #ff2a1f;
+	box-shadow: 0px 56px 36px -60px #121D12;
+	
+}
+.box-content.box-1 .service h3{
+	color: #363638;
+	font-size:25px;
+	text-transform:uppercase;
+	
+}
+
+.box-content.box-2 .box-item{
+	margin-bottom: 30px;
+	border: 1px solid #888;
+	background-color: #fffeff;
+	
+}
+.box-content.box-2 .box-item .wrapper{
+	padding:0 15px;
+	 }
+.box-content.box-2 h3 {
+	font-size:21px;
+	font-weight:bold;
+	margin:10px 0 25px 0;
+	color: #857240;
+	
+}
+.box-content.box-2 p {
+	margin:0;
+	line-height:1;
+	
+}
+.box-content.box-2 .box-item div{
+	padding: 0;
+	
+}
+
+.box-content.box-3 {
+	padding:70px 0;
+	
+}
+
+.box-content.box-4 {
+	padding:70px 0 ;
+	
+}
+.box-content.box-4 h3 {
+	margin-bottom: 40px;
+	font-size: 35px;
+	
+}
+.box-content.box-4 input {
+	border: 1px solid #CF000F;
+	border-radius: 4px;
+	
+}
+.box-content.box-4 textarea {
+	border: 1px solid #CF000F;
+	border-radius: 4px;
+	height: 240px;
+	
+} 
+
+
+/* ------------------------------------Footer---------------------------------- */
+
+footer {
+	text-align: center;
+	
+}
+footer p {
+	color: #f8f8f8;
+	font-size: 17px;
+	letter-spacing:1px;
+	
+}
+
+footer .wrap-footer {
+	padding: 60px 50px 20px 50px;
+	background-color: #404040;
+	
+}
+
+footer .col-footer{
+	margin-bottom: 50px;
+	
+}
+footer .col-footer .footer-heading{
+	margin-bottom:30px;
+	
+}
+footer .col-footer .footer-heading h4 {
+	color: #fffeff;
+	font-size: 35px;
+	font-weight: 500;
+	
+}
+
+
+footer .col-footer.footer-1 img{
+	margin: 10px 0;
+	
+}
+
+footer .col-footer.footer-3 {
+	position: relative;
+	margin:0;
+	padding:0;
+}
+
+footer .col-footer.footer-3 ul li{
+	list-style:none;
+	
+}
+footer .col-footer.footer-3 a{
+	float:left;
+	height:24px;
+	line-height:24px;
+	position:relative;
+	font-size:16px;
+	letter-spacing: 1px;
+	margin-bottom:12px;
+	margin-left:20px;
+	background: #DA251D;
+	color:#fff;
+	text-decoration:none;
+	border-radius: 4px;
+	padding:0 10px 0 12px;	 
+}
+
+.copy-right{
+	background-color:#333;
+	color:#fff;
+	padding-top:20px;
+	text-align: center;
+	
+}
+
+.detailed-menu{	
+	margin: 1rem 5.4rem;	 
+	padding: 10px;	   
+	border: 1px solid darkred;
+	border-radius: 4px;					
+	color: rgb(255, 255, 255);
+	background: linear-gradient(rgb(241, 38, 38),#ee4343);
+	text-shadow: 1px 1px 1px #2f2f2f;
+}
+
+.portfolio-items{
+	text-align:center;
+	margin:0 auto;
+}
+
+
+/* -------------------------------------BackTop-------------------------------- */
+
+#backTop{
+    width:3rem;
+    height:3rem;
+    padding:5px 0px 10px 22px;
+    border-radius:4px;
+	font-size: 3rem;
+    text-indent:-9999px;
+    cursor:pointer;
+    z-index:999999999;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	background-color:#e7493b ;
+	color: white;
+	box-sizing:content-box;	
+	box-sizing: content-box;
+}
+
+
+/* ------------------------------------Button---------------------------------- */
+
+a.btn:focus{
+	outline: 0;
+	
+}
+
+.btn-book {
+	background: #DA251D;
+	color: white;
+	border: 2px solid transparent;
+	margin:20px 0 10px 0;
+	font-size:25px;
+	
+}
+.btn-book:hover {
+	color:#333;
+	border:2px solid #DA251D;
+	background:transparent;
+}
